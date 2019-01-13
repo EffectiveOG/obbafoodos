@@ -94,10 +94,10 @@ nav ul li:last-child {
 
 nav ul li a {
     display: inline-block;
-    outline: none;
+    outline: none ;
     color: orange;
     text-transform: uppercase;
-    text-decoration: none;
+    text-decoration: none !important;
     font-size:14px;
     letter-spacing: 1.2px;
     font-weight: 600; 
@@ -125,7 +125,8 @@ nav #right {
 /*  surlignage en hover 1.0 */
 
 hr {
-    height: .10rem;
+
+    height: .10rem !important;
     width: 36.2%;
     margin: 4px;
     background: orange;
@@ -201,7 +202,7 @@ hr {
 }
 
 .banner .conta {
-    margin-top: 21.5vh;
+    margin-top: 17vh;
 }
 
 .banner h1 {
@@ -218,6 +219,12 @@ hr {
     text-align: center;
     margin: 0 auto;
     padding: 0 3rem;
+}
+
+/* banniere hr centre */
+
+div.section-head hr {
+    margin-left: 28vw; 
 }
 
 .leader {
@@ -291,15 +298,18 @@ section#commande {
 }
 
 
-
+/*
 @keyframes charging {
     0% {
         transform: scaleX(0);
+        overflow: hidden;
     }
     100% {
         transform: scaleX(1);
     }
 }
+
+
 
 @keyframes fadeText {
     0% {opacity: 0;}
@@ -317,7 +327,7 @@ section#commande {
     justify-content: center; 
     align-items: center;
     z-index: 15;
-    animation: fadeOut 4s linear forwards;
+    animation: fadeOut 2.5s linear forwards;
 }
 @keyframes fadeOut {
     0%, 91% {
@@ -329,6 +339,8 @@ section#commande {
         visibility: hidden;
     }
 }
+
+*/
 
 .loading h2 {
     color: #000;
@@ -354,7 +366,7 @@ section#commande {
     height: 100%;
     background: #000;
     transform-origin: left;
-    animation: charging 4s linear forwards;
+    animation: charging 2.4s linear forwards;
 }
 
 
