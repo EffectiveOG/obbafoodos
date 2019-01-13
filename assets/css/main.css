@@ -273,7 +273,7 @@ section#commande {
 }
 
 .btn-primary:hover {
-    background: var(--primary-color-hover )
+    background: var(--primary-color-hover );
 }
 
 .btn-second {
@@ -298,7 +298,7 @@ section#commande {
 }
 
 
-/*
+
 @keyframes charging {
     0% {
         transform: scaleX(0);
@@ -340,7 +340,7 @@ section#commande {
     }
 }
 
-*/
+
 
 .loading h2 {
     color: #000;
@@ -371,7 +371,7 @@ section#commande {
 
 
 .loading .bar:after {
-    content: 'ObbaFood OS is Loading..';
+    content: 'Chargement en cours ..';
     position: absolute;
     top:0;
     left:0;
